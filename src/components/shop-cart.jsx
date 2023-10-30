@@ -13,9 +13,9 @@ const ShopCart = ({
   _id,
   handleLikeBtnClick,
   handleShopCartBtnClick,
-  quantity,
-  handleIncreaseQuantity, 
-  handleDecreaseQuantity,
+  // quantity,
+  // handleIncreaseQuantity, 
+  // handleDecreaseQuantity,
 }) => {
   const handleClick = (e) => {
     e.stopPropagation();
@@ -47,11 +47,11 @@ const ShopCart = ({
           <span className="text-red-500 text-[12px]">({discountPercent}%)</span>
         </div>
 
-        <div className="flex justify-between items-center mb-2">
+        {/* <div className="flex justify-between items-center mb-2">
           <button onClick={() => handleDecreaseQuantity(_id)}>-</button>
           <span>{quantity}</span>
           <button onClick={() => handleIncreaseQuantity(_id)}>+</button>
-        </div>
+        </div> */}
 
         <Button
           onClick={handleClickShop}

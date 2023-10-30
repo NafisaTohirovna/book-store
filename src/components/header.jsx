@@ -14,7 +14,7 @@ function Header({ isLogged, setIsLogged, wishList, shopCart }) {
     <header className="flex justify-between py-6 px-2  border-b-2 fixed top-0 w-[90%] bg-white z-30">
       <Link to={"/"}>
         {" "}
-        <img src="public/Logo.svg" alt="" />{" "}
+        <img src="/Logo.svg" alt="" />{" "}
       </Link>
       <div>
         {isLogged ? (
